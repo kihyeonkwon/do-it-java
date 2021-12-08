@@ -11,12 +11,12 @@ public class Student {
 	}
 
 	public void takeBus(Bus bus) {
-		this.money -= bus.fee;
+		this.money -= Bus.fee;
 		bus.take();
 	}
 
 	public void takeSubway(Subway subway) {
-		this.money -= subway.fee;
+		this.money -= Subway.fee;
 		subway.take();
 	}
 
