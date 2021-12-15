@@ -16,7 +16,7 @@ class MyStack {
 			System.out.println("스택이 비었습니다.");
 			return null;
 		}
-
+		// remove(0)을 하면 큐 형식이다.
 		return (arrayStack.remove(len - 1));
 	}
 }
